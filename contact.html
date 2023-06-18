@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My contact details</title>
+</head>
+<body>
+    <h1>Here are my contact details</h1>
+    <ul>
+        <li>Phone number</li>
+        <li>House address</li>
+        <li>email address</li>
+        <li>parents information</li>
+    </ul>
+    <!--learning about forms ahead-->
+    <hr>
+    <form  action="mailto:manyavaid1603@gamil.com" method="post" enctype="text/plain"><!--here the action tells you that when you click on the submit button of the form the where should the information go or what ahppens next when u click on the submit button
+    mailto here is used in action where in the information will be send to the mail address which you have given in the html code like above.-->
+       <label>Your name:</label> <!--label helps to ask user for their information-->
+       <input type="text" name="yourName" value="">
+       
+       <label>Password</label>
+      <input type="password" name="Password" value="">
+      <label>Your email</label>
+      <input type="email"  name="YourEmail" value="">
+      <label>Enter your text here</label><br>
+      <hr>
+      <textarea name="name" rows="8" cols="80"></textarea>
+       <input type="Submit" name=""><!---input type helps to store or help the user to type the information asked-->
+    </form>
+</body>
+</html>
+<!--Here in the input type name it helps to specify the type of information which the user if filling and it will be POSTED at the destination which we have given ... in the above example the information will be posted to the mail address we have given -->
